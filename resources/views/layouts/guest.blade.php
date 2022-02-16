@@ -47,7 +47,7 @@
                             @csrf
                             <input class="btn btn-warning" type="submit" value="Login" />
                         </form>
-                        &nbsp;&nbsp;
+                        &nbsp;
                         @if (Route::has('register'))
                             <form action="{{ route('register') }}">
                                 @csrf
