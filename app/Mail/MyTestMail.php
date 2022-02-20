@@ -11,8 +11,6 @@ class MyTestMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    // ";%~;7^fN8{}8Y"e."
-
     public $details;
     /**
      * Create a new message instance.
